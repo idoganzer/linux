@@ -1,0 +1,41 @@
+{
+    "id": "B2dMI",
+    "name": "Bla bla ",
+    "content": [
+        {
+            "type": "snippet",
+            "lines": [
+                " EXTRAVERSION =",
+                " NAME = 💕 Valentine's Day Edition 💕",
+                " ",
+                "-# *DOCUMENTATION*",
+                "-# To see a list of typical targets execute \"make help\"",
+                "-# More info can be located in ./README",
+                "-# Comments in this file are targeted only to the developer, do not",
+                "-# expect to learn how to build the kernel reading this file.",
+                " ",
+                " $(if $(filter __%, $(MAKECMDGOALS)), \\",
+                " \t$(error targets prefixed with '__' are only for internal use))"
+            ],
+            "firstLineNumber": 5,
+            "path": "Makefile",
+            "comments": [
+                "This is test [[sym:./mm/cleancache.c(341dd7c0-077e-4578-b2cc-7f1046d3d63b)]]"
+            ]
+        }
+    ],
+    "symbols": {
+        "341dd7c0-077e-4578-b2cc-7f1046d3d63b": {
+            "type": "path",
+            "text": "mm/cleancache.c",
+            "path": "mm/cleancache.c"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.5.9-1",
+        "file_blobs": {
+            "Makefile": "95caa81be8fbda68a4dd57892c76bccde6bdcd34"
+        }
+    }
+}
